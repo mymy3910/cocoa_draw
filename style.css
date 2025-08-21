@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contents{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.cocoa_instructions{
+    height: 400px;
+}
+
+.cocoa_pc{
+    width: 200px;
+    height: 200px;
+}
