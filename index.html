@@ -8,20 +8,34 @@
 </head>
 <body>
 <div class = contents>
-    <p>対象者</p>
-    <input type="text" id ="targets">
-    <p>対象者人数</p>
-    <input type="number" id ="target"  min="1">
 
-    <div class = buttons>
-        <button id="draw_button">抽選</button>
-        <button id="reset_button">リセット</button>
+    <div class = "instruction_area">
+        <img src="img/cocoa_instructions.png" alt="PCココア" class = "cocoa_instructions">
     </div>
 
-    <p>残り人数：</p>
-    <div id="left"></div>
-    <p>対象者：</p>
-     <div class="output" id="subject"></div>
+    <div class = "main_area">
+        <img src="img/cocoa_pc.png" alt="PCココア" class = "cocoa_pc">
+        
+        <div class = "input_area">
+            <p>抽選対象者</p>
+            <input type="text" id ="targets">
+            <p>対象者人数</p>
+            <input type="number" id ="target"  min="1">
+
+            <div class = buttons>
+                <button id="draw_button">抽選</button>
+                <button id="reset_button">リセット</button>
+            </div>
+        </div>
+
+        <div class = "output_area">
+            <p>残り人数：</p>
+            <div class = "lottery_winners" id="left"></div>
+            <p>対象者：</p>
+            <div class="winners" id="subject"></div>
+        </div>
+    </div>
+
 </div>
 <script type="text/javascript" src="script.js"></script> 
 </body>
